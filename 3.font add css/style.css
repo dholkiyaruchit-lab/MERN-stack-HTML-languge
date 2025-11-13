@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ 
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+    /* google fonts */
+font-family: 'Roboto', sans-serif;
+}
+
+#para {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin: 20px;
+}

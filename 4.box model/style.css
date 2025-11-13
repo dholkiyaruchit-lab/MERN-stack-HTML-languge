@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(192, 0, 0);
+}
+.box {
+  border: 5px dotted rgba(255, 255, 255, 0);
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  padding: 50px;
+  margin: 50px;
+  /* margin-top: ; */
+  /* padding-bottom: ; */
+  background-color: rgb(133, 250, 230);
+  border-color: rgb(51, 255, 48);
+}
+.box p {
+  background-color: rgb(255, 128, 255);
+  height: 100px;
+  width: 100px;
+}
