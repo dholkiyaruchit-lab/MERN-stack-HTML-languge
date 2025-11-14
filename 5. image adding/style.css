@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-image{
+    width: 500px;
+    height: 300px;
+    background-image: url("https://cdn.pixabay.com/photo/2018/02/07/19/40/fruit-3137815_1280.jpg");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
