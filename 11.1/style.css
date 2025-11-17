@@ -1,0 +1,46 @@
+body {
+    background: #f3f3f3;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background: white;
+    padding: 25px;
+    width: 80%;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.2);
+}
+
+h2 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.bigA {
+    font-size: 45px;
+    color: orangered;
+    font-weight: 900;
+}
+
+.highlight-red {
+    background: #ffe5e5;
+    border-left: 4px solid red;
+    padding: 6px;
+    margin: 10px 0;
+}
+
+.highlight-yellow {
+    background: #fffecf;
+    border-left: 4px solid gold;
+    padding: 6px;
+    margin: 10px 0;
+}
+
+.highlight-green {
+    background: #d5ffda;
+    border-left: 4px solid green;
+    padding: 6px;
+    margin: 10px 0;
+    font-weight: 600;
+}
