@@ -1,0 +1,102 @@
+body{
+  font-family: Arial, sans-serif;
+  background:#f0f2f5;
+  padding:20px;
+}
+
+.title{
+  text-align:center;
+  margin-bottom:25px
+}
+
+.card{
+  background:white;
+  padding:15px;
+  margin-bottom:20px;
+  border-radius:10px;
+  box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+.demo{
+  display:flex;
+  gap:10px;
+  padding:12px;
+  background:#e8ecf1;
+  border-radius:8px;
+  margin-top:12px}
+
+.nav{
+  justify-content:space-between;
+  align-items:center}
+
+.nav .logo{
+  font-size:22px;
+  font-weight:bold
+}
+
+.nav .links{
+  display:flex;
+  gap:15px
+}
+
+.nav a{
+  text-decoration:none;
+  color:#2563eb;
+  font-weight:bold}
+
+
+.product-grid{flex-wrap:wrap;
+  justify-content:space-evenly}
+
+.product{
+  background:#3b82f6;
+  color:white;
+  width:120px;
+  height:120px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-radius:10px;
+  font-size:24px;
+}
+
+.layout{display:flex}
+
+.sidebar{
+  width:200px;
+  background:#1d4ed8;
+  color:white;
+  padding:20px;
+  border-radius:8px;
+  font-weight:bold;
+}
+.content{
+  flex-grow:1;
+  background:#dbeafe;
+  padding:20px;
+  border-radius:8px;
+  margin-left:10px;
+}
+
+.align-box{
+  height:150px;
+  align-items:flex-end;
+  justify-content:space-around;
+}
+.box{
+  width:60px;
+  height:60px;
+  background:#10b981;
+  color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-radius:8px;
+  font-weight:bold;
+}
+.a2{
+  align-self:center;
+  background:#f59e0b}
+
+.a3{
+  align-self:flex-start;
+  background:#ef4444}
